@@ -6,6 +6,35 @@
     <title>HEBIR | Ethiopia Cultural Restaurant - Bole Africa Avenue</title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400;600&family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
     <style>
+        /* BUTTON FIX */
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: var(--transition);
+}
+
+.btn-gold {
+    background: var(--primary-gold);
+    color: var(--ebony);
+}
+
+.btn-gold:hover {
+    background: #e0b96d;
+}
+
+.btn-outline {
+    border: 1px solid var(--primary-gold);
+    color: var(--primary-gold);
+}
+
+.btn-outline:hover {
+    background: var(--primary-gold);
+    color: var(--ebony);
+}
         :root {
             --primary-gold: #c5a059;
             --deep-red: #8b0000;

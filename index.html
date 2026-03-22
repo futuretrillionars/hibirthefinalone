@@ -154,7 +154,11 @@
         .testimonial-card { min-width: 350px; background: var(--charcoal); padding: 3rem; border-top: 4px solid var(--primary-gold); }
 
         /* --- VISIT US SECTION --- */
-        .visit-grid { display: grid; grid-template-columns: 1fr 1.5fr; gap: 0; background: var(--charcoal); }
+        .visit-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
         .visit-info { padding: 5rem; display: flex; flex-direction: column; justify-content: center; }
         .map-placeholder { background: #050505; display: flex; align-items: center; justify-content: center; color: var(--primary-gold); min-height: 400px; border: 1px solid #222; }
 
